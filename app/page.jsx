@@ -32,7 +32,7 @@ const page = () => {
                 <SideNav/>
                <Box/>
             </section>
-            {/* <Onboard/> */}
+            <Onboard/>
         </main>
     </div>);
 }

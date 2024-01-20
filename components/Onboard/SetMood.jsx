@@ -36,7 +36,7 @@ const SetMood = () => {
                             </li>
                         </ul>
                     </div>
-                    <button className="mt-8 w-9/12 py-2 rounded-sm bg-orange">Continue</button>
+                    <button data-level='2' className="mt-8 w-9/12 py-2 rounded-sm bg-orange cont">Continue</button>
 
 
                 </div>

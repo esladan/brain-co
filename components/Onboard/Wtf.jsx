@@ -4,7 +4,7 @@ import InputField from "../InputField";
 const Wtf = () => {
     return (
         <div className="flex justify-center">
-            <form method="post" className={`bg-medium rounded p-5 mt-10 w-10/12 sm:w-4/12`}>
+            <form method="post" action="#" className={`bg-medium rounded p-5 mt-10 w-10/12 sm:w-4/12`}>
                 <div className="flex items-center justify-between mb-5 font-bold">
                     <p>Wtf question?</p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -18,8 +18,8 @@ const Wtf = () => {
                
 <div className="text-center">
 
-       <button className="mt-8 w-8/12 py-3 rounded-sm bg-orange">Continue</button>
-                <button className="my-1 w-8/12 py-3 rounded-sm ">Skip</button>
+       <button data-level='0' className="mt-8 w-8/12 py-3 rounded-sm bg-orange cont">Continue</button>
+                <button data-level='0' className="my-1 w-8/12 py-3 rounded-sm cont ">Skip</button>
 
 </div>
 
